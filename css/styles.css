@@ -1,3 +1,31 @@
-.test {
+.parallax {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-car {
+    background-image: url('/img/car.jpeg');
+}
+
+.bg-road {
+    background-image: url('/img/road.jpeg');
+}
+
+.bg-sign {
+    background-image: url('/img/sign.jpeg');
+}
+
+.content {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 3em;
+    max-width: 50%;
+    border-radius: 5px;
 }
